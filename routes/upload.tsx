@@ -14,23 +14,11 @@ export default function Home() {
         method="post"
       >
         <div>
-          <label for="author">Author:</label>
-          <input type="text" name="author" />
-        </div>
-        <div>
-          <label for="book-name">Book name:</label>
-          <input type="text" name="book-name" />
-        </div>
-        <div>
-          <label for="chapter-name">Chapter name:</label>
-          <input type="text" name="chapter-name" />
-        </div>
-        <div>
           <label for="audio">Audio file:</label>
           <input type="file" name="audio" accept="audio/*" />
         </div>
 
-        <input type="submit" value="upload" />
+        <input type="submit" value="Upload" />
       </form>
     </div>
   );
